@@ -1,7 +1,7 @@
 # Project Title
 
-Application name:
-Current version:
+Application name: Cedars career grabber(Temp.)
+Current version: 1.0
 
 To extract daily career list from HKU Cedars 
 Target link: http://www.cedars.hku.hk/careers/latest-announcement
