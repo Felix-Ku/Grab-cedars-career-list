@@ -76,6 +76,8 @@ df.to_csv('[TARGET_LOCATION]',encoding='utf_8_sig')
 - Filtering company names or fields (Filtering the names and check automatically on search engines)
 - Marking down the requirements of different companies for career references.
 
+- Further simplify the codes
+
 - Detailed future version:
   1. Input the range of dates to be selected
   2. Show options (To download all pdf goto 4. / To choose manully goto 3.)
