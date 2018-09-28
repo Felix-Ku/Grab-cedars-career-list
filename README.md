@@ -18,6 +18,7 @@ First try of web scraping with python.
 
 ### Getting Started - Prerequisites
 
+- Python 3.7
 - Modules
 - Administrative rights
 
