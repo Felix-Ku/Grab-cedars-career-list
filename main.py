@@ -43,7 +43,7 @@ for i in (range(dates)-1):
 # Main selection process
 for i in range(dates):
     next=raw_input('Show the next & following record(s)? [Y/N]')
-    if next=='N'
+    if next=='N':
         break
     else:
         print ('Record.',i)
@@ -51,7 +51,7 @@ for i in range(dates):
         print ('Name of career/event: ',names[i])
         print ('Interested?')
         choice=raw_input('[Y/N]')
-        if choice==Y
+        if choice==Y:
            # Save the interested data to files
            urllib.request.urlretrieve(links[i], 'D:\saved_career_data\'+dates[i]+'\'+links[i].split('/')[-1])
            print('File has been saved successfully!')                           
@@ -60,7 +60,7 @@ print ('This is the end of records')
 
 # Create CSV file for all records
 create_csv=raw_input('Create a CSV file to store all records? [Y/N]')
-if create_csv=='Y'                                    
+if create_csv=='Y':                                    
     raw={'Names':names,'Links':links}
     df=pd.DataFrame(raw,columns=['Names','Links'],index=dates)
     df.to_csv('d:\saved_career_data\'+dates[i]+'_updated.csv',encoding='utf_8_sig')
