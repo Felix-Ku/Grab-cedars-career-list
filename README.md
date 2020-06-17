@@ -6,17 +6,7 @@ Current version: 1.0
 To extract daily career list from HKU Cedars 
 Target link: http://www.cedars.hku.hk/careers/latest-announcement
 
-## Inspiration
-
-Although the HKU Cedars latest announcement list website is already well-designed and user-friendly, I found it quite troublesome to browse the website every day and download each and every interested documents (mainly PDF) manually.
-
-Therefore, I would like to see if this application can help download the documents and extract information automatically. In the future versions, hopefully functions like remembering seen career information and generating automatic reminders for the registrations deadline can be added.
-
-To make the application more useful, more functions need to be added.
-
-First try of web scraping with python.
-
-### Getting Started - Prerequisites
+## Getting Started - Prerequisites
 
 - Python 3.7
 - Modules
